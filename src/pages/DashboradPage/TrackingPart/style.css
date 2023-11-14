@@ -1,0 +1,22 @@
+.track-part {
+    height: auto;
+    padding-bottom: 200px;
+    .slider {
+        margin-left: 10%;
+        margin-top: -200px;
+        .ant-carousel .slick-slide {
+            overflow: hidden;
+            .item {
+                height: 570px;
+                width: 460px;
+                background-color: #0b60ff;
+                margin-right: 30px;
+              }
+          }
+          
+          .ant-carousel .slick-slide h3 {
+            color: #fff;
+          }
+          
+    }
+}
