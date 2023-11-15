@@ -1,0 +1,77 @@
+.rate-part {
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-color: white;
+    .part-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        background-color: #1e6eff;
+        padding: 5vh;
+        .content {
+            font-size: 2.5vw;
+            color: white;
+            font-weight: 500;
+        }
+        .user {
+            width: 100%;
+            height: auto;
+            display: flex;
+            .user-avatar {
+                height: 100px;
+                width: 100px;
+                vertical-align: middle;
+            }
+            .user-name {
+                margin-left: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .name {
+                    font-size: 1vw;
+                    color: white;
+                    font-weight: 400;
+                }
+                .job {
+                    font-size: 1.1vw;
+                    color: white;
+                    font-weight: 700;
+                }
+            }
+            
+        }
+    }
+    .part-right {
+        height: 100%;
+        .image {
+            height: 47%;
+        }
+        .space {
+            height: 6%;
+        }
+        .content {
+            height: 47%;
+            border-radius: 20px;
+            background-color: #4aabfd;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 6vh 4vh 4vh 4vh;
+            .content-header {
+                font-size: 1.4vw;
+                font-weight: 400;
+                color: white;
+            }
+            .content-footer {
+                font-size: 0.9vw;
+                color: white;
+                font-weight: 200;
+
+            }
+        }
+    }
+}

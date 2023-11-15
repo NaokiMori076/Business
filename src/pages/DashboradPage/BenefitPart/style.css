@@ -1,0 +1,43 @@
+.benefit-part {
+    height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #f6f6f6;
+    .part-left {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .part-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -5px;
+        .benefit-title {
+            font-size: 2.5vw;
+            color: black;
+            font-weight: 500;
+        }
+        .benefit {
+            .benefit-btn {
+                width: 170px;
+                background-color: #d5ebff ;
+                border-radius: 30px ;
+                border: none;
+                color: #1e6eff;
+                font-weight: 500;
+                font-size: 0.9vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .benefit-word {
+                margin-top: 5px;
+                font-size: 1.5vw;
+                color: black;
+                font-weight: 500;
+            }
+        }
+    }
+}
