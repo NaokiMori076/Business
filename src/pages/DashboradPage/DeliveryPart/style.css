@@ -1,5 +1,5 @@
 .delivery-part {
-    /* height: 100vh; */
+    height: auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
     background-color: black;

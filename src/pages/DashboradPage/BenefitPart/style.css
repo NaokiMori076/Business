@@ -1,5 +1,5 @@
 .benefit-part {
-    height: 100vh;
+    height: auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
     background-color: #f6f6f6;
@@ -9,6 +9,7 @@
         border-radius: 20px;
     }
     .part-right {
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
